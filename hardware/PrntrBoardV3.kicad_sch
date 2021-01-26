@@ -1,4 +1,4 @@
-(kicad_sch (version 20201015) (generator eeschema)
+(kicad_sch (version 20210123) (generator eeschema)
 
   (paper "A4")
 
@@ -803,11 +803,11 @@
           (name "BOOT" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin unconnected line (at -10.16 2.54 0) (length 2.54) hide
+        (pin no_connect line (at -10.16 2.54 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin unconnected line (at -10.16 -2.54 0) (length 2.54) hide
+        (pin no_connect line (at -10.16 -2.54 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -1807,7 +1807,7 @@
     (path "/4ea466ac-29ad-4cfc-ada6-e2f92f34eb89/" (page "5"))
     (path "/a328af25-cbad-4869-9ee7-47ebfcf63e44/" (page "6"))
     (path "/0869bfd6-beef-4d0c-b84f-d51f32da3ba0/" (page "7"))
-    (path "/e106c292-b706-4245-a997-0bf35b7e89a4/" (page ""))
+    (path "/e106c292-b706-4245-a997-0bf35b7e89a4/" (page " "))
   )
 
   (symbol_instances
@@ -2588,6 +2588,9 @@
     (path "/a328af25-cbad-4869-9ee7-47ebfcf63e44/00000000-0000-0000-0000-00005ded14d7"
       (reference "R71") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/0869bfd6-beef-4d0c-b84f-d51f32da3ba0/cf65cb5c-a63d-4f9f-a2c9-184a2f6bfa84"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0869bfd6-beef-4d0c-b84f-d51f32da3ba0/00000000-0000-0000-0000-00005db00743"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
@@ -2629,6 +2632,9 @@
     )
     (path "/0869bfd6-beef-4d0c-b84f-d51f32da3ba0/967818d5-7083-4d03-b3d3-4a38bcfd269b"
       (reference "J29") (unit 1) (value "RJ12_Shielded") (footprint "PrntrBoardV2:Wurth_615006143421")
+    )
+    (path "/0869bfd6-beef-4d0c-b84f-d51f32da3ba0/daf44a6f-c49f-427b-90bd-3d2565db42f6"
+      (reference "J30") (unit 1) (value "WIFI") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
     )
     (path "/0869bfd6-beef-4d0c-b84f-d51f32da3ba0/aeae5a58-8bb2-4cb7-9bff-6d8574e7546a"
       (reference "JP9") (unit 1) (value "Jumper_NO_Small") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
