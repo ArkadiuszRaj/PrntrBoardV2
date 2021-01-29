@@ -55,31 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|102120000|63530000|4c15076f-38e0-4898-aa71-88949eb1dd6a|b5cff7d1-e14c-43c4-a68a-8e63df3c39c2",
-        "courtyards_overlap|119950000|54463578|5e843f3e-f3c6-4daf-9054-7c322feb8a8a|a1352f8d-fc6d-4feb-a88a-4bf92c23c343",
-        "silk_over_copper|45215000|54945000|c42e40a1-7f3d-4fbd-b53f-6e3b8737624d|5c52fb6c-54ff-475c-8466-0d8608611093",
-        "silk_over_copper|54755000|65095000|40e94fe4-b0da-4cbc-9f18-0b73c35fa26c|cb509084-8f2e-45e9-a5e7-2f34bdab2fc5",
-        "silk_over_copper|54755000|74825000|02ef9abf-2058-4314-b718-091e30d22d09|f9a26910-facf-443b-8476-0e8a3538752f",
-        "silk_over_copper|54945000|54825000|6f67ec9d-d02f-4a58-89e7-0852f381ace8|e3f14257-82e7-4830-80ae-0787535f0119",
-        "silk_over_copper|54945000|54945000|6f67ec9d-d02f-4a58-89e7-0852f381ace8|e3f14257-82e7-4830-80ae-0787535f0119",
-        "silk_over_copper|59795000|65105000|fa1dac76-4f74-47d8-8691-5ae7dd8b5198|30a7ddfd-f35a-4630-b766-b732ebb43733",
-        "silk_over_copper|59795000|74835000|d6c1b776-fc01-4b48-9e19-103cd603b7fd|b0b364ee-9296-4cf8-94a3-de944ee05fab",
-        "silk_over_copper|59935000|74825000|d6c1b776-fc01-4b48-9e19-103cd603b7fd|b0b364ee-9296-4cf8-94a3-de944ee05fab",
-        "silk_overlap|54810000|55650000|0677e128-1a5a-40d2-bd9a-5f58b45120bf|25c4eb7b-2a4f-43bc-b8c5-d8988ebcdca2",
-        "silk_overlap|54945000|55555000|25c4eb7b-2a4f-43bc-b8c5-d8988ebcdca2|0677e128-1a5a-40d2-bd9a-5f58b45120bf",
-        "silk_overlap|54945000|55555000|6f67ec9d-d02f-4a58-89e7-0852f381ace8|0677e128-1a5a-40d2-bd9a-5f58b45120bf",
-        "silk_overlap|54945000|55650000|0677e128-1a5a-40d2-bd9a-5f58b45120bf|6f67ec9d-d02f-4a58-89e7-0852f381ace8",
-        "silk_overlap|59160000|74825000|02ef9abf-2058-4314-b718-091e30d22d09|cc9f2cff-2b3c-45aa-add5-b82bb1edb26d",
-        "silk_overlap|59160000|74825000|02ef9abf-2058-4314-b718-091e30d22d09|d6c1b776-fc01-4b48-9e19-103cd603b7fd",
-        "silk_overlap|59175000|65095000|40e94fe4-b0da-4cbc-9f18-0b73c35fa26c|cc9f2cff-2b3c-45aa-add5-b82bb1edb26d",
-        "silk_overlap|59175000|65095000|40e94fe4-b0da-4cbc-9f18-0b73c35fa26c|fa1dac76-4f74-47d8-8691-5ae7dd8b5198",
-        "silk_overlap|59175000|65105000|5c5ae615-3ca0-43c6-bff8-960d5c06f72d|fa1dac76-4f74-47d8-8691-5ae7dd8b5198",
-        "silk_overlap|59175000|74825000|5c5ae615-3ca0-43c6-bff8-960d5c06f72d|cc9f2cff-2b3c-45aa-add5-b82bb1edb26d",
-        "silk_overlap|59175000|74825000|5c5ae615-3ca0-43c6-bff8-960d5c06f72d|d6c1b776-fc01-4b48-9e19-103cd603b7fd",
-        "silk_overlap|59185000|74825000|cc9f2cff-2b3c-45aa-add5-b82bb1edb26d|02ef9abf-2058-4314-b718-091e30d22d09",
-        "silk_overlap|59185000|74835000|d6c1b776-fc01-4b48-9e19-103cd603b7fd|02ef9abf-2058-4314-b718-091e30d22d09"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 1
       },
@@ -418,7 +394,6 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "/5DC",
           "3.3V",
           "5V",
           "AVREF"
@@ -480,16 +455,9 @@
           "SPI1_MISO",
           "SPI1_MOSI",
           "SPI1_SCK",
-          "ST_UART1",
-          "UART1_RX",
-          "UART1_TX",
           "USB_D+",
           "USB_D-",
-          "~ALARM1",
           "~RESET",
-          "~ST1_ALARM",
-          "~ST2_ALARM",
-          "~ST3_ALARM",
           "~X_MIN",
           "~Y_MIN",
           "~Z_MIN"
@@ -512,12 +480,10 @@
         "microvia_drill": 0.1,
         "name": "SuperPower",
         "nets": [
-          "/Power/5V",
           "/Power/Vin",
           "V_bed",
           "V_fan",
-          "V_heaters",
-          "V_motors"
+          "V_heaters"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

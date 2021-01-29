@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|101602247|130930000|54878111-918b-449b-8117-9f1dc8fa888f|bba9dbe8-eb84-439b-83bd-2a036318dd7b",
+        "courtyards_overlap|122950000|110600000|9720b5d3-d621-457e-a607-739db985ae20|785066a2-8377-4190-99f8-41232d87b276",
+        "courtyards_overlap|132050000|74500000|00569eed-4e29-4ae9-9871-7cf6cd13891c|c0bcf228-cdc2-42fd-8191-d0011b3d39e5",
+        "courtyards_overlap|142950000|110600000|1a3190ed-31e7-4121-872c-251842db652c|000dc326-a978-4927-a267-184d4a82074c",
+        "courtyards_overlap|152050000|74500000|21535fec-fb33-466c-b546-1e16fb932228|2d86e6da-4694-4877-9667-299e28fe10a6",
+        "courtyards_overlap|162950000|110600000|c95e3fee-464a-4a67-b01b-9997dca3891e|89767672-15ff-4d80-9d71-e0803d84c2ad",
+        "courtyards_overlap|172050000|74500000|9a012dc7-7a6d-44be-8f3e-b571a932371e|943c4ba3-a671-40f0-ae41-fc098386bb78",
+        "courtyards_overlap|182950000|110500000|385f7576-0a50-452b-8afc-c51e5bb39858|c89f8242-97a5-41d0-8186-9cc9581e9af7"
+      ],
       "meta": {
         "version": 1
       },
@@ -136,8 +145,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
-          "drill": 0.2
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -169,83 +178,6 @@
         0,
         0,
         0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
         0,
         1,
         0,
@@ -257,8 +189,107 @@
       [
         0,
         2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
         0,
         1,
         0,
@@ -273,18 +304,6 @@
         0,
         1,
         0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
         0,
         1,
         0,
@@ -294,6 +313,21 @@
         2
       ],
       [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
         2,
         2,
         2,
@@ -314,7 +348,9 @@
       "bus_to_net_conflict": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
+      "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -328,6 +364,8 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
@@ -446,8 +484,12 @@
   },
   "sheets": [
     [
-      "89a5e82b-60f4-43fd-8aeb-2dc8e209b9e1",
+      "4255abaa-08d7-4aaa-b8be-ee33c04a7322",
       ""
+    ],
+    [
+      "4255abaa-08d7-4aaa-b8be-ee33c04a7322",
+      "IO"
     ]
   ],
   "text_variables": {}

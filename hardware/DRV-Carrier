@@ -1,0 +1,32 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\qarkraj\Documents\GitHub\PrntrBoardV2\hardware\DRV-Carrier.kicad_sch</h1>
+    <p>29/01/2021 08:13:07</p>
+    <p>Eeschema (5.99.0-8692-g540dd11b58)</p>
+    <p><b>Component Count:</b>36</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C4, C5, C6, C7, C8</td><td>8</td><td>100uF 35V</td><td>Device:CP</td><td>Capacitor_SMD:CP_Elec_6.3x7.7</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>10V</td><td>Device:D_Zener</td><td>Diode_SMD:D_SOD-323</td><td>Zener diode</td><td></td></tr>
+    <tr><td>D2, D3, D4</td><td>3</td><td>LED</td><td>Device:LED</td><td>PrntrBoardV2:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>Fuse</td><td>Device:Fuse</td><td>PrntrBoardV2:2410_FuseFolder</td><td>Fuse</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>KF635</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Conn_02x25_Counter_Clockwise</td><td>Connector_Generic:Conn_02x25_Odd_Even</td><td>Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical</td><td>Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J_A1, J_A2, J_A3, J_A4, J_A5, J_A6, J_A7, J_A8</td><td>8</td><td>AlarmSelector</td><td>Connector_Generic:Conn_02x04_Odd_Even</td><td>Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical_SMD</td><td>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J_MOT1, J_MOT2, J_MOT3, J_MOT4, J_MOT5, J_MOT6, J_MOT7, J_MOT8</td><td>8</td><td>PCIe_Stepper</td><td>stp_conn_v2:PCIe_Stepper</td><td>PrntrBoardV2:AMPHENOL_10018784-10210TLF</td><td></td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>NCE40P40K</td><td>Transistor_FET:IRF4905</td><td>Package_TO_SOT_SMD:TO-252-2</td><td>-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>100k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>470</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>1k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
